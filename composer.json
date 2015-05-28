@@ -1,7 +1,7 @@
 {
   "name": "jordan-adams/eventbrite",
   "description": "false super lightweight guzzle wrapper for Eventbrite",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "require": {
     "php": ">=5.5",
     "guzzlehttp/guzzle": "~6.0"

@@ -110,7 +110,7 @@ class Client
      */
     protected function parse(ResponseInterface $response)
     {
-        $json = json_decode($response->getBody());
+        $json = json_decode($response->getBody(), true);
 
         // Check for failure
         if ($response->getStatusCode() !== 200) {
